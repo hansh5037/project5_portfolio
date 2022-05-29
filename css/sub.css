@@ -1,0 +1,230 @@
+@charset 'utf-8';
+.bg-gr {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 27px;
+}
+.project-desc {
+    margin-top: 8.3rem;
+}
+.project-logo {
+    width: 22rem;
+    margin: auto;
+}
+.project-logo img {
+    width: 80%;
+    margin: 10%;
+}
+
+h2 {
+    margin-top: 4rem;
+    line-height: 11rem;
+    font-size: 4.2rem;
+}
+h3 {
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+.renewal-before {
+    margin-bottom: 2rem;
+}
+.sub-visual {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-left {
+    text-align: center;
+}
+.main-left h2 {
+    padding-top: 3rem;
+}
+.main-left dt {
+    padding: 3rem 0;
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+.main-left button {
+    position: relative;
+    width: 7rem;
+    height: 6rem;
+    margin: 3rem 0.4rem;
+    border-radius: 1rem;
+    z-index: 100;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+}
+.main-left button:active {
+    top: 10px !important;
+    box-shadow: none !important;
+}
+.main-right img {
+    width: 100%;
+}
+.design-keyword span {
+    display: inline-block;
+    margin: 2rem 1rem;
+    padding: 1.6rem 4rem;
+    background-color: #f4f4f4;
+    border-radius: 2.5rem;
+}
+.color-typo dl {
+    padding: 3rem;
+}
+.color-typo dl:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.color-typo dd {
+    float: left;
+}
+.color-typo dt {
+    width: 18%;
+    padding: 2rem 0;
+    font-size: 2.8rem;
+}
+.color-typo dd {
+    padding: 0 1.2rem;
+}
+.wireframe, .design {
+    text-align: center;
+}
+.wireframe h2 {
+    text-align: left;
+}
+.wireframe img, .design img {
+    width: 100%;
+}
+.gnb-img {
+    margin-bottom: 3rem;
+}
+.gnb-list li {
+    text-align: left;
+    margin: 2rem 2%;
+}
+.gnb-list dd {
+    padding: 0 2.6rem;
+}
+.gnb-list dt {
+    padding: 1.2rem 2rem;
+    margin-bottom: 1.2rem;
+    border-radius: 27px;
+}
+.design-main, .wireframe-img {
+    margin-bottom: 6rem;
+}
+.design-main img {max-width: 1920px;}
+.design-sub img {max-width: 1920px;}
+.icon-img img {
+    width: 100%;
+    max-width: 1309px;
+}
+.flug-in > div {
+    margin: 2rem 0;
+}
+.flug-in img {
+    width: 100%;
+}
+.flug-in li {
+    margin: 2rem 0;
+}
+.swiper img {max-width: 520px;}
+.slick img {max-width: 280px;}
+
+.fullpage img {max-width: 656px;}
+
+@media screen and (max-width: 767px) {
+    .bg-gr {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    h2 {
+        font-size: 3.2rem;
+    }
+    .main-left h2 img {
+        width: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bg-gr {
+        padding: 4rem 5rem;
+    }
+    .project-desc p {
+        width: calc(100% - 22rem);
+        float: left;
+    }
+    .project-logo {
+        float: left;
+    }
+    .color-typo dt {
+        float: left;
+    }
+    .color-typo dd {
+        padding: 0 4rem;
+    }
+    .design-main, .wireframe-img {
+        margin-bottom: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {}
+
+@media screen and (min-width: 1280px) {
+    h2 {
+        margin-bottom: 3rem;
+    }
+    .project-desc {
+        height: 20rem;
+    }
+    .renewal div {
+        height: 26rem;
+    }
+    .improvement {
+        height: 23rem;
+    }
+    .main-left {
+        float: left;
+        width: 40%;
+        padding: 5rem 0 0 10%;
+        text-align: left;
+    }
+    .main-right {
+        float: left;
+        width: 60%;
+    }
+    .main-right img {
+        max-width: 1040px;
+    }
+    .renewal div {
+        float: left;
+        width: 48%;
+    }
+    .project-desc {
+        margin-top: 8.3rem;
+    }
+    .renewal-before {
+        margin-right: 4%;
+    }
+    .gnb-list li {
+        float: left;
+        width: 46%;
+        height: 12rem;
+        text-align: left;
+    }
+    .fi-left {
+        float: left;
+    }
+    .fi-right {
+        float: right;
+    }
+    .slick div:nth-child(2) {
+        padding-left: 3rem;
+    }
+}

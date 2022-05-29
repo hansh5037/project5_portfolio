@@ -1,0 +1,31 @@
+@charset 'utf-8';
+.sub-visual {
+    background-image: url('../images/main_visual_diptyque.jpg');
+}
+.main-left button {
+    background-color: #c9cae5;
+    box-shadow: 0 10px 0 #9ea0c3;
+}
+.main-left button:hover {
+    top: 2px;
+    box-shadow: 0px 8px 0 #9ea0c3;
+}
+.gnb-list dt {
+    background-color: #c4c5ec;
+}
+.project-logo {
+    width: 12rem !important;
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (min-width: 768px) {
+    .project-desc p {
+        width: calc(100% - 12rem) !important;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {}
+
+@media screen and (min-width: 1280px) {}

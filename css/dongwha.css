@@ -1,0 +1,28 @@
+@charset 'utf-8';
+.sub-visual {
+    background-image: url('../images/main_visual_dongwha.jpg');
+}
+.main-left button {
+    background-color: #e1a59b;
+    box-shadow: 0 10px 0 #987068;
+}
+.main-left button:hover {
+    top: 2px;
+    box-shadow: 0px 8px 0 #987068;
+}
+.project-logo {
+    width: 12rem;
+}
+
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (min-width: 768px) {
+    .project-desc p {
+        width: calc(100% - 12rem);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {}
+
+@media screen and (min-width: 1280px) {}

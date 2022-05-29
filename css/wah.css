@@ -1,0 +1,27 @@
+@charset 'utf-8';
+.sub-visual {
+    background-image: url('../images/main_visual_wah.jpg');
+}
+.main-left button {
+    background-color: #e3ca9b;
+    box-shadow: 0 10px 0 #b09b74;
+}
+.main-left button:hover {
+    top: 2px;
+    box-shadow: 0px 8px 0 #b09b74;
+}
+.gnb-list dt {
+    background-color: #f7c1c1;
+}
+.project-logo img {
+    margin: 0 10%;
+}
+
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {}
+
+@media screen and (min-width: 1280px) {}
